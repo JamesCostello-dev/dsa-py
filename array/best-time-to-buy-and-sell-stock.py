@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#Best Time to Buy and Sell Stock II
+#best time to buy and sell stock
 def maxProfit(prices):
     if len(prices) == 0:
         return 0
