@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#remove duplicates from an array
+#remove duplicates from a sorted array
 def removeDuplicates(nums):
     if len(nums) == 0:
         return 0
