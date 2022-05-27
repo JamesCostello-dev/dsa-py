@@ -19,8 +19,8 @@ def test_intersect():
     assert intersect([1, 2, 2, 1], [2, 2]) == [2, 2]
     assert intersect([4, 9, 5], [9, 4, 9, 8, 4]) == [9, 4]
 
-#time complexity
-#space complexity
+#time complexity O(n + m)
+#space complexity O(min(n, m))
 
 if __name__ == '__main__':
     test_intersect()
